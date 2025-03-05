@@ -85,10 +85,10 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - END
+  - HOME
   - PG DN
   - PG UP
-  - HOME
+  - END
   - {t: \, s: '|'}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,8 +113,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
-  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ins
   - '{'
   - '}'
   - $$mdi:volume-off$$
