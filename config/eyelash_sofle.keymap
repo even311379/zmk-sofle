@@ -5,8 +5,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -65,11 +63,11 @@
 
         layer_1 {
             bindings = <
-&trans        &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
-&trans        &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp END          &kp PG_DN        &kp PG_UP   &kp HOME   &kp BACKSLASH     &kp F12
-&trans        &trans           &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&out OUT_BLE  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE
-&kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&trans        &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8     &kp F9      &kp F10           &kp F11
+&trans        &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp HOME         &kp PG_DN        &kp PG_UP  &kp END     &kp BACKSLASH     &kp F12
+&trans        &trans           &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP     &kp RIGHT   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&out OUT_BLE  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans     &kp INSERT  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans     &trans      &trans
             >;
 
             display-name = "layer1";
