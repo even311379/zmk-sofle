@@ -90,7 +90,7 @@ layers:
   - PgDn
   - PgUp
   - END
-  - {t: '-', s: _}
+  - {t: \, s: '|'}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
