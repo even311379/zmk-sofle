@@ -46,56 +46,56 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp A &kp A &kp LGUI &kp A>;
+            bindings = <&kp A &kp A &kp A &kp LGUI>;
         };
     
         td_s: tap_dance_s {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp S &kp S &kp LEFT_ALT &kp S>;
+            bindings = <&kp S &kp S &kp S &kp LEFT_ALT>;
         };
     
         td_d: tap_dance_d {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp D &kp D &kp LEFT_SHIFT &kp D>;
+            bindings = <&kp D &kp D &kp D &kp LEFT_SHIFT>;
         };
     
         td_f: tap_dance_f {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp F &kp F &kp LEFT_CONTROL &kp F>;
+            bindings = <&kp F &kp F &kp F &kp LEFT_CONTROL>;
         };
     
         td_j: tap_dance_j {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp J &kp J &kp RIGHT_CONTROL &kp J>;
+            bindings = <&kp J &kp J &kp J &kp RIGHT_CONTROL>;
         };
     
         td_k: tap_dance_k {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp K &kp K &kp RIGHT_SHIFT &kp K>;
+            bindings = <&kp K &kp K &kp K &kp RIGHT_SHIFT>;
         };
     
         td_l: tap_dance_l {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp L &kp L &kp RIGHT_ALT &kp L>;
+            bindings = <&kp L &kp L &kp L &kp RIGHT_ALT>;
         };
     
         td_scln: tap_dance_scln {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp SEMICOLON &kp SEMICOLON &kp RGUI &kp SEMICOLON>;
+            bindings = <&kp SEMICOLON &kp SEMICOLON &kp SEMICOLON &kp RGUI>;
         };
     };
 
