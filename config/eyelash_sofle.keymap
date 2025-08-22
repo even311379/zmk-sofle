@@ -67,7 +67,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp F &kp F LEFT_CONTROL>;
+            bindings = <&kp F &kp LEFT_CONTROL>;
         };
     
         td_j: tap_dance_j {
