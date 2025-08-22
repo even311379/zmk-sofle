@@ -42,6 +42,61 @@
     };
 
     behaviors {
+        td_a: tap_dance_a {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp A &kp A &kp LGUI &kp A>;
+        };
+    
+        td_s: tap_dance_s {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp S &kp S &kp LEFT_ALT &kp S>;
+        };
+    
+        td_d: tap_dance_d {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp D &kp D &kp LEFT_SHIFT &kp D>;
+        };
+    
+        td_f: tap_dance_f {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp F &kp F &kp LEFT_CONTROL &kp F>;
+        };
+    
+        td_j: tap_dance_j {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp J &kp J &kp RIGHT_CONTROL &kp J>;
+        };
+    
+        td_k: tap_dance_k {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp K &kp K &kp RIGHT_SHIFT &kp K>;
+        };
+    
+        td_l: tap_dance_l {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp L &kp L &kp RIGHT_ALT &kp L>;
+        };
+    
+        td_scln: tap_dance_scln {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp SEMICOLON &kp SEMICOLON &kp RGUI &kp SEMICOLON>;
+        };
     };
 
     combos {
@@ -60,7 +115,7 @@
             bindings = <
 &kp ESC           &kp N1        &kp N2          &kp N3       &kp N4              &kp N5       &kp UP_ARROW     &kp N6         &kp N7               &kp N8             &kp N9           &kp N0              &kp MINUS
 &kp GRAVE         &kp Q         &kp W           &kp E        &kp R               &kp T        &kp DOWN_ARROW   &kp Y          &kp U                &kp I              &kp O            &kp P               &kp EQUAL
-&kp LEFT_SHIFT    &mt LGUI A    &mt LEFT_ALT S  &mt LSHFT D  &mt LEFT_CONTROL F  &kp G        &kp LEFT_ARROW   &kp H          &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RGUI SEMICOLON  &kp APOS
+&kp LEFT_SHIFT    &td_a         &td_s           &td_d        &td_f               &kp G        &kp LEFT_ARROW   &kp H          &td_j                &td_k              &td_l            &td_scln            &kp APOS
 &kp LEFT_CONTROL  &kp Z         &kp X           &kp C        &kp V               &kp B        &kp RIGHT_ARROW  &kp N          &kp M                &kp COMMA          &kp DOT          &kp SLASH           &kp RIGHT_SHIFT
 &kp C_MUTE        &kp LEFT_GUI  &kp LEFT_ALT    &mo 1        &kp TAB             &kp SPACE    &kp ENTER        &kp BACKSPACE  &kp ENTER            &mo 2              &kp RIGHT_ALT    &kp DELETE
             >;
