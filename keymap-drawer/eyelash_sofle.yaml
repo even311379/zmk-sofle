@@ -84,7 +84,7 @@ layers:
   - W
   - F
   - P
-  - G
+  - B
   - $$mdi:arrow-down-bold$$
   - J
   - L
@@ -97,9 +97,9 @@ layers:
   - R
   - S
   - T
-  - D
+  - G
   - $$mdi:arrow-left-bold$$
-  - H
+  - M
   - N
   - E
   - I
@@ -109,11 +109,11 @@ layers:
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - $$mdi:arrow-right-bold$$
   - K
-  - M
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
