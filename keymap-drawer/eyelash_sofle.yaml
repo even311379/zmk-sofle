@@ -212,28 +212,28 @@ layers:
   - {t: '`', s: '~'}
   - Q
   - W
-  - F
-  - P
-  - G
+  - E
+  - R
+  - T
   - $$mdi:arrow-down-bold$$
-  - J
-  - L
-  - U
   - Y
-  - {t: ;, s: ':'}
+  - U
+  - I
+  - O
+  - P
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - A
-  - R
   - S
-  - T
   - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
   - H
-  - N
-  - E
-  - I
-  - O
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -242,7 +242,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - K
+  - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
